@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-    <title>Language-Conditioned Robotic Manipulation Fast and Slow Thinking</title>
+    <title>Are Multimodal LLMs Eligible as the “Brain” for Robotics?</title>
 
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -132,23 +132,20 @@ Our findings indicate that no single model excels in all areas, suggesting that 
 <!--            </div>-->
 <!--        </div>-->
 
-<!--        <div class="row">-->
-<!--            <div class="col-md-8 col-md-offset-2">-->
-<!--            	<br>-->
-<!--                <h3>-->
-<!--                    Framework-->
-<!--                </h3>-->
-<!--                <p class="text-justify">-->
-<!--                    -->
-<!--                    Dual-process model research indicates that individuals engage with decisions in two primary ways: a rapid, instinctive, subconscious manner (referred to as “System 1 or Fast-thinking”) -->
-<!--                    and a measured, deliberate, conscious manner (“System 2 or Slow-thinking”). Based on this theory, we propose a framework that mimics human cognitive architecture to classify tasks and makes decisions on two systems based on instruction types.-->
-<!--                    -->
-<!--                    Upon receiving an instruction, the robot processes it through DistilRoBERTa to obtain an embedding. -->
-<!--                    Leveraging embedding similarity search, we classified the instruction into either a fast-thinking system or a slow-thinking system.-->
-<!--                    The framework is shown in below.-->
-<!--                <div class="text-center">-->
-<!--                    <image src="img/fst.png" width="80%">-->
-<!--                </div>-->
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+            	<br>
+                <h3>
+                    Framework
+                </h3>
+ <p>
+        We introduce <strong>MMRo</strong> (<strong>M</strong>ultimodal <strong>M</strong>odel for <strong>Ro</strong>botics), the first diagnostic benchmark specifically designed to systematically dissect and analyze the diverse failure modes of MLLMs (Multimodal Large Language Models) in robotics.
+        <br>
+        MMRo includes approximately 13,159 meticulously crafted visual question-answer (VQA) pairs, featuring 850 images selected from open-access datasets and 284 images captured by human professionals in both generated and real-world settings.
+    </p>
+                <div class="text-center">
+                    <image src="img/dataste_view.png" width="100%">
+                </div>
 
 
 <!--            </div>-->
